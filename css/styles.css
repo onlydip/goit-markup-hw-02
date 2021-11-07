@@ -1,3 +1,72 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-tittle-color: #212121;
+  --first-text-color: #757575;
+  --second-text-color: rgba(255, 255, 255, 0.6);
+  --main-button-color: #2196f3;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--main-button-color);
+}
+
+.header-logos {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--second-tittle-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-tittle-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--main-button-color);
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--main-button-color);
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--main-button-color);
 }
