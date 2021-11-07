@@ -204,3 +204,42 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* -------------PORTFOLIO*/
+
+.main-btn {
+  color: var(--second-tittle-color);
+  background: var(--aftermain-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-btn:hover,
+.main-btn:active {
+  background: var(--main-button-color);
+  color: var(--main-title-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-item {
+  background: var(--main-title-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.fourth-tittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-tittle-color);
+}
+
+.fourth-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
