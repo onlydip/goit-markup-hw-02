@@ -31,6 +31,15 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.current {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-button-color);
+}
+
 /* -------------HEADER*/
 .header-logo {
   font-family: Raleway;
@@ -87,6 +96,7 @@ body {
 /* -------------HERO*/
 .hero {
   background-color: var(--main-hero-color);
+  font-style: inherit;
 }
 
 .hero-item {
@@ -100,6 +110,7 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -112,6 +123,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  border: none;
 }
 
 /* -------------PREMAIN*/
@@ -181,12 +193,14 @@ body {
 /* -------------FOOTER*/
 .footer {
   background-color: var(--main-hero-color);
+  font-style: inherit;
 }
 .footer-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+  font-style: normal;
 }
 
 .footer-logos {
@@ -197,30 +211,64 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
-.second-item {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
 
 /* -------------PORTFOLIO*/
-
+.main-current {
+  font-family: inherit;
+  color: var(--main-title-color);
+  background: var(--main-button-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .main-btn {
+  font-family: inherit;
   color: var(--second-tittle-color);
   background: var(--aftermain-color);
   border-radius: 4px;
   cursor: pointer;
+  border: none;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .main-btn:hover,
 .main-btn:active {
-  background: var(--main-button-color);
+  font-family: inherit;
   color: var(--main-title-color);
+  background: var(--main-button-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-item {
@@ -242,4 +290,30 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
+}
+
+.footer-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+  font-style: normal;
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--main-button-color);
+}
+
+.footer-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+  font-style: normal;
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--main-button-color);
 }
