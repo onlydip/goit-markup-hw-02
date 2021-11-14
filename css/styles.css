@@ -6,6 +6,7 @@
   --main-button-color: #2196f3;
   --main-hero-color: #2f303a;
   --aftermain-color: #f5f4fa;
+  --footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -196,6 +197,7 @@ body {
   font-style: inherit;
 }
 .footer-item {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -210,6 +212,32 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+}
+.footer-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--footer-color);
+  font-style: normal;
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--main-button-color);
+}
+
+.footer-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--footer-color);
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--main-button-color);
 }
 
 /* -------------PORTFOLIO*/
@@ -290,30 +318,4 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-}
-
-.footer-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--first-text-color);
-  font-style: normal;
-}
-.footer-mail:hover,
-.footer-mail:focus {
-  color: var(--main-button-color);
-}
-
-.footer-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--first-text-color);
-  font-style: normal;
-}
-.footer-tel:hover,
-.footer-tel:focus {
-  color: var(--main-button-color);
 }
